@@ -1,0 +1,228 @@
+.mb{
+    width: 25%;
+    height: 65%;
+    position: absolute;
+    font-family: Tenali Ramakrishna;
+}
+body{
+    overflow-x: hidden;
+}
+
+.navv{
+    margin-right: 2%;
+    padding-left: 1.5rem;
+}
+.slid-r{
+    height: 50%;
+    width: 71%;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+#home1{
+    padding-left: 16%;
+    padding-top: 10%;
+}
+
+
+.par{
+    font-family: Tenali Ramakrishna;
+    font-size: x-large;
+}
+header li:hover{
+    background-color:#c0eded;
+    border-radius: 0.5rem;
+    color: white;
+}
+#home{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 38px;
+    padding-top: 5%;
+    padding-left: 0%;
+    margin-bottom: 13rem;
+}
+header li{
+    font-family: STIX TWO TEXT;
+}
+
+.hdi{
+    margin-left: 1rem;
+    font-family: TWO TEXT;
+    margin-bottom: -2rem;
+    margin-top: 2rem;
+}
+.hdi2{
+    font-family: TWO TEXT;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.hdi3{
+    font-family: TWO TEXT;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+.hdi4{
+    font-family: TWO TEXT;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.recc{
+    margin-bottom: 5rem;
+}
+
+.hdd{
+    margin-top: 8rem;
+    padding-right: 2%;
+}
+.mav{
+    padding-top: 2rem;
+    margin-bottom: -4%;
+    margin-top: 1rem;
+    padding-left: 6%;
+
+}
+.imh{
+    width: 70%;
+    height: 100%;
+    padding-left: 2rem;
+    margin-top: 1rem;
+    transition: transform 500ms ease;
+}
+
+.imh:hover{
+    transform: scale(1.05);
+}
+.bgg{
+    background-color:lightgray;
+}
+.abb{
+    margin-left: 4%;
+}
+.abb1{
+    margin-left: 1%;
+    margin-bottom: -2rem;
+}
+.cards{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-right: 5%;
+}
+.imng{
+    float: left;
+    width: 15%;
+    height: 40%;
+    margin-left: 4%;
+    display: table;
+    padding-top: 5%;
+}
+.qual{
+    margin-top: 10%;
+    margin-left: 2%;
+}
+.cards1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: Tenali Ramakrishna;
+    font-size: 25px;
+    transition: transform 500ms ease;
+}
+@media screen and (max-width: 500px){
+    .cards1{
+        margin-left: 1rem;
+    }
+    .cards{
+        margin-left: 0;
+    }
+    .ser{
+        margin-left:3rem ;
+    }
+    .mav{
+        padding-left: 6%;
+        padding-right: 5%;
+        margin-top: -3rem;
+    }
+    .hdi{
+        margin-bottom: 3rem;
+    }
+    .hdi3{
+        margin-left: 11%;
+        margin-bottom: 13%;
+    }
+    .hdi4{
+        margin-left: 11%;
+        margin-bottom: 2rem;
+    }
+    .inp{
+        margin-left: 0%;
+        margin-top: 2rem;
+    }
+    .hdd{
+        padding-left: 2%;
+    }
+}
+
+.cards1:hover{
+    transform: scale(1.1);
+}
+.ser{
+    font-family: Tenali Ramakrishna;
+    font-size: 50px;
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+.ch{
+    font-size: 30px;
+}
+.inp{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-family: Tenali Ramakrishna;
+    font-size: 26px;
+    margin-left: 2%;
+    font-style: italic;
+}
+.ploi{
+    background-color: lightgray;
+    padding: 0 0 7% 0;
+}
+.en{
+    font-size: 55px;
+}
+.fo{
+    margin-bottom: -2rem;
+}
+.tte{
+    margin-top: 3rem;
+    background-color: lightgray;
+    padding-top: 3%;
+}
+.el{
+    color:rgb(77, 76, 76);
+}
+
+.slide-r{
+    animation-name: rights;
+    animation-duration: 3s;
+}
+
+@keyframes rights{
+    0%{
+        right:-200px;
+    }
+    100%{
+        right: 0px;
+    }
+}
+
+.slide-l{
+    animation-name: lefts;
+    animation-duration: 3s;
+}
+
+@keyframes lefts{
+    0%{
+        left:-200px;
+    }
+    100%{
+        left: 0px;
+    }
+}
